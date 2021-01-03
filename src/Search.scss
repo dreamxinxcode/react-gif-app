@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+#search-container {
+  display: flex;
+  justify-content: center;
+
+  input {
+    border-radius: 1rem;
+    background-color: #1C1C1D;
+    border: none;
+    font-family: Caveat;
+    font-size: 1rem;
+    color: #f2f3f4;
+    padding: .5rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
